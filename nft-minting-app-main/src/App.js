@@ -196,15 +196,11 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <a target={"_blank"} href={CONFIG.SCAN_LINK}>
-        <StyledImg alt={"etherscan"} src={"/config/images/etherscan_logo.png"} /> 
-        </a> <a target={"_blank"} href="https://twitter.com/HmmNFT">
-        <StyledImg alt={"twitter"} src={"/config/images/twitter_logo.png"} />
-        </a> <a target={"_blank"} href="https://twitter.com/HmmNFT">
-        <StyledImg alt={"discord"} src={"/config/images/discord_logo.png"} />
-        </a> <a target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
-        <StyledImg alt={"opensea"} src={"/config/images/opensea_logo.png"} />
-        </a>
+        <a style="display:inline-block" target={"_blank"} href={CONFIG.SCAN_LINK}>
+        <StyledImg alt={"etherscan"} src={"/config/images/etherscan_logo.png"} /> </a> <a style="display:inline-block" target={"_blank"} href="https://twitter.com/HmmNFT">
+        <StyledImg alt={"twitter"} src={"/config/images/twitter_logo.png"} /></a> <a style="display:inline-block" target={"_blank"} href="https://twitter.com/HmmNFT">
+        <StyledImg alt={"discord"} src={"/config/images/discord_logo.png"} /></a> <a style="display:inline-block"  target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+        <StyledImg alt={"opensea"} src={"/config/images/opensea_logo.png"} /></a>
 
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
