@@ -198,10 +198,10 @@ function App() {
       >
           
         <div>
-        <a target={"_blank"} href={CONFIG.SCAN_LINK}><img alt={"etherscan"} src={"/config/images/etherscan_logo.png"} width="32px" height="32px"/></a>
-        <a target={"_blank"} href="https://twitter.com/HmmNFT"><img alt={"twitter"} src={"/config/images/twitter_logo.png"} width="32px" height="32px"/></a>
-        <a target={"_blank"} href="https://twitter.com/HmmNFT"><img alt={"discord"} src={"/config/images/discord_logo.png"} width="32px" height="32px"/></a>
-        <a target={"_blank"} href={CONFIG.MARKETPLACE_LINK}><img alt={"opensea"} src={"/config/images/opensea_logo.png"} width="32px" height="32px"/></a>
+        <a target={"_blank"} href={CONFIG.SCAN_LINK}><img alt={"etherscan"} src={"/config/images/etherscan_logo.png"} width="42px" height="42px"/></a>
+        <a target={"_blank"} href="https://twitter.com/HmmNFT"><img alt={"twitter"} src={"/config/images/twitter_logo.png"} width="42px" height="42px"/></a>
+        <a target={"_blank"} href="https://twitter.com/HmmNFT"><img alt={"discord"} src={"/config/images/discord_logo.png"} width="42px" height="42px"/></a>
+        <a target={"_blank"} href={CONFIG.MARKETPLACE_LINK}><img alt={"opensea"} src={"/config/images/opensea_logo.png"} width="42px" height="42px"/></a>
         </div>
 
         <s.SpacerSmall />
