@@ -249,13 +249,13 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("https://docs.google.com/document/d/1u_Jaazdp0ZFH4vIgG2FqcBotvD4SvxCgsaKFMsx2K7s/preview", "_blank");
+                  window.open("https://discord.gg/NubdcRjCMy", "_blank");
                 }}
                 style={{
                   margin: "5px",
                 }}
               >
-                Whitepaper
+                Discord
               </StyledButton>
               <StyledButton
                 style={{
@@ -399,11 +399,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example2.png.png"}
-              style={{ transform: "scaleX(-1)" }}
-            />
+            
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
@@ -414,9 +410,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            3,333 stoic beings living in cardboard boxes on the Ethereum blockchain, ready to take on the bear market.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -425,9 +419,8 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            Note: We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT. Lower this at your own risk!
           </s.TextDescription>
         </s.Container>
       </s.Container>
