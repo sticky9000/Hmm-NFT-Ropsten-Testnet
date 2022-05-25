@@ -196,10 +196,13 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
+          
+        <div>
         <a target={"_blank"} href={CONFIG.SCAN_LINK}><img alt={"etherscan"} src={"/config/images/etherscan_logo.png"} width="32px" height="32px"/></a>
         <a target={"_blank"} href="https://twitter.com/HmmNFT"><img alt={"twitter"} src={"/config/images/twitter_logo.png"} width="32px" height="32px"/></a>
         <a target={"_blank"} href="https://twitter.com/HmmNFT"><img alt={"discord"} src={"/config/images/discord_logo.png"} width="32px" height="32px"/></a>
         <a target={"_blank"} href={CONFIG.MARKETPLACE_LINK}><img alt={"opensea"} src={"/config/images/opensea_logo.png"} width="32px" height="32px"/></a>
+        </div>
 
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
