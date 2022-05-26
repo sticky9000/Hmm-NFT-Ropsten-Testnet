@@ -409,7 +409,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            3,333 stoic beings living in cardboard boxes on the Ethereum blockchain, ready to take on the bear market.
+            3,333 stoic beings on the Ethereum blockchain, ready to take on the bear market.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
